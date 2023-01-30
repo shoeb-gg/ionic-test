@@ -7,6 +7,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab2PageRoutingModule } from './tab2-routing.module';
 import { InputFieldModule } from './input-field/input-field.module';
+import { InputButtonsComponent } from './input-buttons/input-buttons.component';
 
 @NgModule({
   imports: [
@@ -17,6 +18,6 @@ import { InputFieldModule } from './input-field/input-field.module';
     Tab2PageRoutingModule,
     InputFieldModule,
   ],
-  declarations: [Tab2Page],
+  declarations: [Tab2Page, InputButtonsComponent],
 })
 export class Tab2PageModule {}
